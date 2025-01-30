@@ -13,6 +13,14 @@ The system is configured with :
 - **Nixpkgs Unstable & stable** (As of January 2025, channel 24.11)
 - **Home-manager Standalone** (To configure per users environments)
 
+## Features
+
+| Components    | Version                 |
+| --------      | ---------------------   |
+| Distro        | NixOS                   |
+| Terminak      | Kitty                   |
+| Compositor    | Plasma KDE (Wayland)    |
+
 ## Commands
 To rebuild system level changes (by machines for instance)
 ```
@@ -22,7 +30,6 @@ To rebuild users environment :
 ```
 home-manager switch --flake .#user
 ```
-
 Garbage Collector :
 ```
 nix-store --gc
@@ -32,12 +39,16 @@ nix-store --gc
 
 ## WIP
 
-### Minecraft Branch
-Configuring Fabric Minecraft server with the help of [nix-minecraft](https://github.com/Infinidoge/nix-minecraft).
-
 ### Main branch
-- Implementing Neovim personal configuration ([Nixvim](https://github.com/nix-community/nixvim) or [Nixcats](https://github.com/BirdeeHub/nixCats-nvim?tab=readme-ov-file#getting-started))
-- Hyprland wip (maybe in another branch later)
-- 
-### NvChad
-Temporary use of [NvChad on Nix](https://github.com/nix-community/nix4nvchad) while building my own custom Neovim configuration
+- Stable diffusion
+
+### Minecraft Branch
+Configuring Fabric Minecraft server (server side mods) with the help of [nix-minecraft](https://github.com/Infinidoge/nix-minecraft).
+
+### Nixvim or NixCats or Nvf
+- [Nixvim](https://github.com/nix-community/nixvim) seems easy to setup
+- [NixCats](https://github.com/BirdeeHub/nixCats-nvim) configure everything with Lua
+- [Nvf](https://github.com/NotAShelf/nvf)
+
+### Hyprland
+- TODO
