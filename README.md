@@ -18,7 +18,7 @@ The system is configured with :
 | Components    | Version                 |
 | --------      | ---------------------   |
 | Distro        | NixOS                   |
-| Terminak      | Kitty                   |
+| Terminal      | Kitty                   |
 | Compositor    | Plasma KDE (Wayland)    |
 
 ## Commands
