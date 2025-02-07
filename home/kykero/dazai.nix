@@ -1,8 +1,8 @@
-
 {
   pkgs,
   ...
-}: {
+}:
+{
 
   imports = [
     ./global
@@ -11,10 +11,9 @@
     ./features/cli/kitty.nix
   ];
 
-  home.packages =with pkgs; [
+  home.packages = with pkgs; [
     obsidian
 
   ];
-
 
 }
