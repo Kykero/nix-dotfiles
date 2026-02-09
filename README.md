@@ -41,14 +41,5 @@ nix-store --gc
 
 ### Main branch
 - Stable diffusion
-
-### Minecraft Branch
-Configuring Fabric Minecraft server (server side mods) with the help of [nix-minecraft](https://github.com/Infinidoge/nix-minecraft).
-
-### Nixvim or NixCats or Nvf
-- [Nixvim](https://github.com/nix-community/nixvim) seems easy to setup
-- [NixCats](https://github.com/BirdeeHub/nixCats-nvim) configure everything with Lua
 - [Nvf](https://github.com/NotAShelf/nvf)
 
-### Hyprland
-- TODO
